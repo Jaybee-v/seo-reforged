@@ -372,6 +372,9 @@ a:hover {
   color: rgb(255, 255, 255) !important;
   font-size: 30px;
 }
+.col-sm-12.text-center h2 {
+  color: #fff !important;
+}
 
 .col-sm-12.text-center h2,
 blockquote q {
