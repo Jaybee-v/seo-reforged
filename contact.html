@@ -2,8 +2,11 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+
+    <meta
+      name="description"
+      content="Contactez votre agence web design à Lyon La Panthere."
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
@@ -15,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
-    <title>Contact la Panthere agne web design Lyon</title>
+    <title>Contact La Panthère, agence Web design à Lyon</title>
 
     <!-- Analytics -->
 
@@ -92,29 +95,31 @@
             <div class="col-sm-6">
               <form id="form_1" novalidate>
                 <div class="form-group">
-                  <label> Nom </label>
-                  <input id="name" class="form-control" required />
+                  <label for="name"> Nom </label>
+                  <input id="name" class="form-control" name="name" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
                     type="email"
                     required
+                    name="email"
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="known"> Comment nous avez-vous connu ? </label>
                   <input
                     class="form-control"
                     type="email"
                     required
                     id="input_504"
+                    name="known"
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="text">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -123,6 +128,7 @@
                     rows="4"
                     cols="50"
                     required
+                    name="text"
                   ></textarea>
                 </div>
                 <button
