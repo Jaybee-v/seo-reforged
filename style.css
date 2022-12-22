@@ -367,7 +367,9 @@ a:hover {
   list-style: none;
 }
 /* MODIF SITE */
-
+footer p {
+  color: #fff !important;
+}
 #bloc-5-cta h4 {
   color: rgb(255, 255, 255) !important;
   font-size: 30px;
